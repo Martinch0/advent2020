@@ -40,7 +40,7 @@ namespace Advent1
 				{
 					if (remaining == numbers[j])
 					{
-						Console.WriteLine($"Found numbers: {numbers[i]} and {numbers[j]}; multiplication = {numbers[i] * numbers[j]}");
+						//Console.WriteLine($"Found numbers: {numbers[i]} and {numbers[j]}; multiplication = {numbers[i] * numbers[j]}");
 						return numbers[i] * numbers[j];
 					}
 				}
