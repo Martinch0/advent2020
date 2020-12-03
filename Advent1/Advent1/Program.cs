@@ -13,10 +13,15 @@ namespace Advent1
 			//Console.WriteLine($"TwoNumbers: {day1.SolveTwoNumbers()}");
 			//Console.WriteLine($"ThreeNumbers: {day1.SolveThreeNumbers()}");
 
-			Day2 day2 = new Day2();
+			//Day2 day2 = new Day2();
 
-			Console.WriteLine($"Valid Passwords: {day2.Solve1()}");
-			Console.WriteLine($"Valid Passwords: {day2.Solve2()}");
+			//Console.WriteLine($"Valid Passwords: {day2.Solve1()}");
+			//Console.WriteLine($"Valid Passwords: {day2.Solve2()}");
+
+			Day3 day3 = new Day3();
+
+			Console.WriteLine($"Trees: {day3.Solve1()}");
+			Console.WriteLine($"Trees: {day3.Solve2()}");
 
 			// Wait for keypress
 			Console.ReadKey();
