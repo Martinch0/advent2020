@@ -28,10 +28,15 @@ namespace Advent1
 			//Console.WriteLine($"ValidPassports: {day4.Solve1()}");
 			//Console.WriteLine($"ValidPassports2: {day4.Solve2()}");
 
-			Day5 day5 = new Day5();
+			//Day5 day5 = new Day5();
 
-			Console.WriteLine($"MaxID: {day5.Solve1()}");
-			Console.WriteLine($"MissingID: {day5.Solve2()}");
+			//Console.WriteLine($"MaxID: {day5.Solve1()}");
+			//Console.WriteLine($"MissingID: {day5.Solve2()}");
+
+			Day6 day6 = new Day6();
+
+			Console.WriteLine($"GroupCount: {day6.Solve1()}");
+			Console.WriteLine($"GroupCount2: {day6.Solve2()}");
 
 			// Wait for keypress
 			Console.ReadKey();
