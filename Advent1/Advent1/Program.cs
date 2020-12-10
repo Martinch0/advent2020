@@ -33,10 +33,20 @@ namespace Advent1
 			//Console.WriteLine($"MaxID: {day5.Solve1()}");
 			//Console.WriteLine($"MissingID: {day5.Solve2()}");
 
-			Day6 day6 = new Day6();
+			//Day6 day6 = new Day6();
 
-			Console.WriteLine($"GroupCount: {day6.Solve1()}");
-			Console.WriteLine($"GroupCount2: {day6.Solve2()}");
+			//Console.WriteLine($"GroupCount: {day6.Solve1()}");
+			//Console.WriteLine($"GroupCount2: {day6.Solve2()}");
+
+			//Day7 day7 = new Day7();
+
+			//Console.WriteLine($"GoldBagContainers: {day7.Solve1()}");
+			//Console.WriteLine($"GoldBags Contain: {day7.Solve2()}");
+
+			Day8 day8 = new Day8();
+
+			Console.WriteLine($"LastValueBeforeLoop: {day8.Solve1()}");
+			Console.WriteLine($"LastValueFixed: {day8.Solve2()}");
 
 			// Wait for keypress
 			Console.ReadKey();
