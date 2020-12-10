@@ -48,10 +48,15 @@ namespace Advent1
 			//Console.WriteLine($"LastValueBeforeLoop: {day8.Solve1()}");
 			//Console.WriteLine($"LastValueFixed: {day8.Solve2()}");
 
-			Day9 day9 = new Day9();
+			//Day9 day9 = new Day9();
 
-			Console.WriteLine($"FirstMistake: {day9.Solve1()}");
-			Console.WriteLine($"Weakness: {day9.Solve2()}");
+			//Console.WriteLine($"FirstMistake: {day9.Solve1()}");
+			//Console.WriteLine($"Weakness: {day9.Solve2()}");
+
+			Day10 day10 = new Day10();
+
+			Console.WriteLine($"1jolt*3jolt: {day10.Solve1()}");
+			Console.WriteLine($"Combos: {day10.Solve2()}");
 
 			// Wait for keypress
 			Console.ReadKey();
