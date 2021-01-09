@@ -53,10 +53,35 @@ namespace Advent1
 			//Console.WriteLine($"FirstMistake: {day9.Solve1()}");
 			//Console.WriteLine($"Weakness: {day9.Solve2()}");
 
-			Day10 day10 = new Day10();
+			//Day10 day10 = new Day10();
 
-			Console.WriteLine($"1jolt*3jolt: {day10.Solve1()}");
-			Console.WriteLine($"Combos: {day10.Solve2()}");
+			//Console.WriteLine($"1jolt*3jolt: {day10.Solve1()}");
+			//Console.WriteLine($"Combos: {day10.Solve2()}");
+
+			//Day11 day11 = new Day11();
+
+			//Console.WriteLine($"NumberOfPeople: {day11.Solve1()}");
+			//Console.WriteLine($"NumberOfPeople2: {day11.Solve2()}");
+
+			//Day12 day12 = new Day12();
+
+			//Console.WriteLine($"ManDist: {day12.Solve1()}");
+			//Console.WriteLine($"ManDist2: {day12.Solve2()}");
+
+			//Day13 day13 = new Day13();
+
+			//Console.WriteLine($"NearestBus: {day13.Solve1()}");
+			//Console.WriteLine($"NearestBus2: {day13.Solve2()}");
+
+			//Day14 day14 = new Day14();
+
+			//Console.WriteLine($"SumMemory: {day14.Solve1()}");
+			//Console.WriteLine($"SumMemory2: {day14.Solve2()}");
+
+			Day15 day15 = new Day15();
+
+			Console.WriteLine($"2020Number: {day15.Solve1()}");
+			//Console.WriteLine($"SumMemory2: {day15.Solve2()}");
 
 			// Wait for keypress
 			Console.ReadKey();
